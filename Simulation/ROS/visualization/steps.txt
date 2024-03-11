@@ -1,0 +1,31 @@
+terminal1: initiate ros
+roscore
+
+terminal2: load gazebo
+move to the required place first
+source ./devel/setup.bash
+roslaunch ur_gazebo ur5_bringup.launch
+
+p.s. error terms: 
+[ERROR] [1697092724.254585683, 0.255000000]: Could not load controller 'eff_joint_traj_controller' because controller type 'effort_controllers/JointTrajectoryController' does not exist.
+[ERROR] [1697092724.254660460, 0.255000000]: Use 'rosservice call controller_manager/list_controller_types' to get the available types
+solution: sudo apt-get install ros*controller*
+
+terminal3: initiate moveit
+source ./devel/setup.bash
+roslaunch ur5_moveit_config moveit_planning_execution.launch sim:=true
+
+terminal4: initialize RViz and load the robot arm
+source ./devel/setup.bash
+roslaunch ur5_moveit_config moveit_rviz.launch
+
+debug: sudo apt-get install ros-melodic-trac-ik-kinematics-plugin
+
+terminal5: python control union 
+source ./devel/setup.bash
+rosrun ur5_control vis.py
+
+source /opt/ros/noetic/setup.bash
+
+
+use webcam to control, I choose to use Iriun Webcam

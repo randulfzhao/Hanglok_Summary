@@ -1,0 +1,31 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/universal_robots/protos/UR5e.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.44685081422901324 0.7565288055036513 0.4774814302840337 1.7819306298430495
+  position -0.06620990745777439 -0.12011963324896018 4.752830297640843
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+UR5e {
+  hidden position_0_0 -9.541538121471405e-05
+  hidden rotation_1 0 0 -1 9.541538270729178e-05
+  hidden position_1_0 5.717749410854699e-05
+  hidden rotation_2 0 1 0 1.5708531774941088
+  hidden position_2_0 1.586353757933895e-05
+  hidden rotation_3 0 1 0 1.5863544135755236e-05
+  hidden position_3_0 -6.530287099972181e-06
+  hidden rotation_4 0 1 0 1.5707894697129001
+  hidden position_4_0 4.1101369241314606e-07
+  hidden rotation_5 0 0 1 4.107966647175028e-07
+  hidden position_5_0 -4.114185681338527e-07
+  hidden rotation_6 0 -1 0 4.1187628987685676e-07
+  controller "visualization"
+}

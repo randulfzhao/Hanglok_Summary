@@ -1,0 +1,8 @@
+prefix=/home/rzhao/code_work/catkin_ws/install
+
+Name: moveit_opw_kinematics_plugin
+Description: Description of moveit_opw_kinematics_plugin
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib -lmoveit_opw_kinematics_plugin
+Requires: roscpp

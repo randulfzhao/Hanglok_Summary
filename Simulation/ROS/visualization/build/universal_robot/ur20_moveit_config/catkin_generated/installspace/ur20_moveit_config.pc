@@ -1,0 +1,8 @@
+prefix=/home/rzhao/code_work/catkin_ws/install
+
+Name: ur20_moveit_config
+Description: Description of ur20_moveit_config
+Version: 1.3.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

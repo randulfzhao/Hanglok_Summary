@@ -142,3 +142,5 @@ This file is used as instructor assisting you cleaning the data that you need. P
     - Data sampled to extract are `.npy` files, stored in `transferred`.
 
 3. convert the skeleton data into left-arm angles using `convert.py`, and save the converted angles as `.pkl` file. The processed data can be approached [here](https://drive.google.com/drive/folders/1gt0LjVJvBQtYEwMVV-0r3qKxqU3RwlFb)
+
+4. The unprocessed data can be viewed [in this page](https://drive.google.com/drive/folders/15-IK5fRih2VpTcmW5ksfpPBJIw5sMdnA) or in these two pages ([1](https://drive.google.com/file/d/1CUZnBtYwifVXS21yVg62T-vrPVayso5H/view) and [2](https://drive.google.com/file/d/1tEbuaEqMxAV7dNc4fqu1O4M7mC6CJ50w/view))

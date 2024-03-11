@@ -1,0 +1,8 @@
+prefix=/home/randulfzhao/code_work/robotics/ur5_ws/devel
+
+Name: my_robot_controller
+Description: Description of my_robot_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

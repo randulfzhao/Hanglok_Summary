@@ -1,0 +1,9 @@
+<launch>
+    <!-- Launch Gazebo with your robot's world file -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="path_to_your_world_file.world"/> <!-- 替换为你的world文件路径 -->
+    </include>
+
+    <!-- Launch your robot controller -->
+    <node name="robot_controller" pkg="my_robot_controller" type="controller.py" output="screen" />
+</launch>
